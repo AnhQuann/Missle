@@ -95,7 +95,7 @@ public class Player extends GameObject implements Physics {
             vy += 5;
         }
         if(KeyEventPress.isLeftPress) {
-            vx -= 5;
+                vx -= 5;
         }
         if(KeyEventPress.isRightPress) {
           vx += 5;
